@@ -7,7 +7,7 @@ const ctrltest = require('./controllers/user.controller');
 
 router.get('/test', ctrltest.userDetails);
 
-//app.use('/api', rtsIndex);
+//app.use('');
 
 // app.get('/',   (req, res) => {
 //      res.send('hello world')
