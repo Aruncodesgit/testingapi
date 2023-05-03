@@ -5,9 +5,9 @@ const router = express.Router();
 //const rtsIndex = require('./routes/router');
 const ctrltest = require('./controllers/user.controller');
 
-router.get('/test', ctrltest.userDetails);
+app.get('/test', ctrltest.userDetails);
 
-//app.use('');
+app.use('/', router);
 
 // app.get('/',   (req, res) => {
 //      res.send('hello world')
